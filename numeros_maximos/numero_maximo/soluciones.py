@@ -1,3 +1,6 @@
+n1 = input("Dame el primer pinche numero: ")
+n2 = input("Dame el segundo pinche numero: ")
+
 def custom_max(n1: int, n2: int):
     """Al darme dos numeros de entrada regresare el maximo de ambos
 
@@ -15,7 +18,6 @@ def custom_max(n1: int, n2: int):
     else:
         raise Exception("Los valores no pueden ser")
     
-n1 = input("Dame el primer numero: ")
-n2 = input("Dame el segundo numero: ")
+
 
 print(custom_max(n1,n2))
